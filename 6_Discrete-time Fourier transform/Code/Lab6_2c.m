@@ -1,0 +1,12 @@
+Xw=1;
+w1=pi/8;
+w2=pi/4;
+syms w;
+n=-100:100;
+Xn = zeros(length(n),1);
+expr=Xw*exp(1i*w*n);
+Xn=1/(2*pi)*(int(expr,w,w1,w2));
+figure;
+plot(n,(Xn));
+xlabel("n");
+ylabel("x[n]");

@@ -1,0 +1,15 @@
+Lab 2
+
+To run the files
+Clone the repository on your local machine.
+Open the files on MATLAB and to run the files enter the file name in command window and enter.
+
+
+
+The theory questions has been scanned and attached to in the Code folder as the 'Theory answers'.
+
+Question 2.1: Continuous-time Fourier transform
+Question 2.2: Filtering of periodic signals with LTI systems
+
+All the theory part questions and explanations have been answered in the Theory part pdf.
+*****The answer for the part 2.2 g has been mentioned in the script 2.2 b.

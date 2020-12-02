@@ -1,0 +1,64 @@
+Lab 1
+
+To run the files
+Clone the repository on your local machine.
+Open the files on MATLAB and to run the files enter the file name in command window and enter.
+
+
+
+The theory questions has been scanned and attached to in the Code folder as the 'Analytical part'.
+
+Question 1.1: Finding Fourier series coefficients.
+
+The function is named fourierCoeff.m which calculates the FS coefficients.
+
+for the sub part 'a' the file name is first_a, which is a script file using the function fourierCoeff to calculate the fourier coefficients for the given x(t)
+for the sub part 'b' we have attached the scanned file doing the analytical calculations to verify the answers.
+for the sub part 'c' the file name first_c, which is a script file using the function fourierCoeff to calculate the fourier coefficients for the assumed function of our choice.
+The plots have been attached in the Result folder.
+
+
+
+......................................................................................
+
+Question 1.2: FS reconstruction and finite FS approximation error.
+
+for the sub part 'a', the file name Q2a.m, uses the function partialfouriersum to reconstruct the signal from question 1 using the FS coefficients calculated in question 1.
+for the sub part 'b', the file name Q2b.m, both the original and reconstructed signal is plotted.
+
+******There is not any significant difference in the original signal and the reconstructed signal except at the point t = 0.
+
+
+for the sub part 'c', the file name Q2c.m, both the errors are computed.
+for the sub part 'd', the file name Q2d.m,
+The mean squared error is negligible and the maximum absolute error , both can be seen in the plot.
+
+
+
+.......................................................................................
+
+Question 1.3: Gibbs Phenomenon – square wave.
+
+for the sub part 'a', the scanned file has been attached calculating the fourier coefficients.
+
+******(b)for the sub part 'b', the file name Q3b10.m and Q3b100.m.
+Increasing the time period decreases the amplitude of ak as we get the term 1/T in the calculation of ak.
+
+for the sub part 'c', the file name Q3c.m
+All the plots for different values of t and N in 1.3 b and 1.3 c has been attached in the result folder.
+
+********(d) The value of y where the maximum overshoot is achieved moves closer and closer to the discontinuity as N increases.  The Nth partial sum has large oscillations near the jump, the oscillations keep on decreasing as the N increases.
+
+
+........................................................................................
+
+Question 1.4: Fourier series – more examples and symmetry properties
+
+for the sub part 'a' the file name is Q4a.m, using the function fourierCoeff. The result for that has been attached in the result folder.
+for the sub part 'b' the file name is Q4b.m, using the function fourierCoeff. The result for that has been attached in the result folder.
+
+*******(c) The results were as expected, the fourier coefficients follow the respective symmetry property for both the questions.
+The symmetry property for part 'a' is:
+   a_k = a(-k) as xt being an even function.
+The symmetry property for part 'b' is:
+   a_k = -a(-k) as xt being an odd function.
